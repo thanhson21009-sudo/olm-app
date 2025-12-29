@@ -6,6 +6,6 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "OLM PREMIUM",
-  "start_url": "//olm-app/",
+  "start_url": "/olm-app/",
   "theme_color": "#ffffff"
 }
