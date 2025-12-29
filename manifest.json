@@ -1,8 +1,7 @@
 {
   "name": "OLM PREMIUM",
   "short_name": "OLM",
-  "description": "App OLM Ghost",
-  "start_url": "/olm-app/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#7c3aed",
