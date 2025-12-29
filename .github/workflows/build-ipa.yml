@@ -1,0 +1,27 @@
+name: Build iOS App
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build PWA to iOS
+        uses: pwa-builder/pwa-action@v1
+        with:
+          siteUrl: https://thanhson21009-sudo.github.io/olm-app/
+          ios: true
+          name: "OLM PREMIUM"
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: olm-premium-ios
+          path: ./*
