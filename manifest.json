@@ -1,11 +1,16 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
   "name": "OLM PREMIUM",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "OLM PREMIUM",
+  "short_name": "OLM",
+  "description": "App OLM Ghost",
   "start_url": "/olm-app/",
-  "theme_color": "#ffffff"
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
