@@ -1,0 +1,16 @@
+{
+  "name": "OLM PREMIUM",
+  "short_name": "OLM",
+  "description": "Hệ thống hỗ trợ học tập OLM",
+  "start_url": "/olm-mod-app/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
